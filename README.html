@@ -1,0 +1,38 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>README.md</title>
+      </head>
+      <body>
+        <h1 id="kirby-seo-with-yoast">Kirby SEO with Yoast</h1>
+<p><em>Requires Kirby 2.3</em></p>
+<h2 id="version-0-01">Version 0.01</h2>
+<p>This is a fork of <a href="https://raw.githubusercontent.com/jenstornell/kirby-seo/">Kirby SEO</a>. It adds in Yoast SEO content analysis to any content field, Open Graph and Twitter previews and a group of fields to drop into the site.yml for default meta title, description Open Graph image and Twitter image.</p>
+<p>To get the meta fields add this to a blueprint:</p>
+<pre><code class="lang-yaml">  meta:
+    extends: meta
+</code></pre>
+<p>The plugin looks for a field called text by default but you can add a contentblockname field to a blueprint to analyze something with a different name. Example:</p>
+<pre><code class="lang-yaml">  seo:
+    label: Kirby SEO
+    type: seo
+    contentblockname: somethingotherthantext
+</code></pre>
+<h1 id="kirby-seo">Kirby SEO</h1>
+<p>A search engine results page (SERP) preview field for the panel. Sorry that the colors in the GIF are weird:</p>
+<p><img src="https://raw.githubusercontent.com/jenstornell/kirby-seo/master/preview4.gif" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/jenstornell/kirby-seo/master/archive.gif" alt=""></p>
+<h2 id="what-is-seo-">What is SEO?</h2>
+<p>It stands for Search Engine Optimization. Make yourself visible in the search engines.</p>
+<h2 id="chapters">Chapters</h2>
+<ol>
+<li><a href="https://github.com/jenstornell/kirby-seo/blob/master/docs/INSTALL.md">Installation</a></li>
+<li><a href="https://github.com/jenstornell/kirby-seo/blob/master/docs/BLUEPRINT.md">Blueprint</a></li>
+<li><a href="https://github.com/jenstornell/kirby-seo/blob/master/docs/FRONTEND.md">Frontend</a></li>
+<li><a href="https://github.com/jenstornell/kirby-seo/blob/master/docs/CONTROLLERS.md">Controllers</a></li>
+<li><a href="https://github.com/jenstornell/kirby-seo/blob/master/docs/OPTIONS.md">Options</a></li>
+<li><a href="https://github.com/jenstornell/kirby-seo/blob/master/docs/ARCHIVE.md">SEO archive field</a></li>
+</ol>
+
+      </body>
+    </html>

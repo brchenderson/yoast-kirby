@@ -1,0 +1,22 @@
+type: group
+fields:
+  metadata_info:
+    label: Metadata
+    type: headline
+  twitter_username:
+    label: Twitter Username
+    type: text
+    width: 1/2
+    placeholder: @RedCircleAgency
+  meta_email:
+    label: Associated Email
+    type: email
+    width: 1/2
+  twitter_image:
+    label: Generic Twitter Image (800x400)
+    type: image
+    width: 1/2
+  og_image:
+    label: Generic OpenGraph Image (600x600)
+    type: image
+    width: 1/2
